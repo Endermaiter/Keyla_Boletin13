@@ -1,5 +1,10 @@
+
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        do {
+            Garaje gar = new Garaje();
+            gar.sitio();
+        }while (true);
     }
 }
